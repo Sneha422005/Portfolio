@@ -17,7 +17,7 @@ export default function Education() {
   
 
   return (
-    <section id="education" className="h-screen py-20 px-6 bg-gradient-to-b from-gray-800 to-gray-600">
+    <section id="education" className="h-screen py-20 px-6 ">
       <div className="max-w-7xl mx-auto text-left">
         <h2 className="text-3xl font-bold text-white text-center mb-12">Education</h2>
         <ul className="list-disc list-inside space-y-4 text-lg marker:text-white">

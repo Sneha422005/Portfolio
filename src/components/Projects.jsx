@@ -44,7 +44,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 px-6 bg-gradient-to-b from-black to-gray-800">
+    <section id="projects" className="py-20 px-6 ">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-white mb-12">Projects</h2>
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
