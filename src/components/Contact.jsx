@@ -6,11 +6,23 @@ export default function Contact() {
             <h3 className='text-xl font-bold text-purple-100 text-left mb-5'> Phone Number:9633975817 </h3>
             <h3 className='text-xl font-bold text-purple-100 text-left mb-5'> Email Id:tcr22cs062@gectcr.ac.in </h3>
             <a 
-                href={'https://github.com/Sneha422005'} 
+                href="https://github.com/Sneha422005" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className='text-xl font-bold text-purple-100 text-left mb-5'> GitHub:Sneha422005 </a>
-            <h3 className='text-xl font-bold text-purple-100 text-left mb-8'> LinkedIn:llllll </h3>
+                className="block text-xl font-bold text-purple-100 text-left mb-2"
+              >
+                GitHub: Sneha422005
+            </a>
+
+            <a 
+                href="https://www.linkedin.com/in/sneha-aravind-388910290/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-xl font-bold text-purple-100 text-left"
+              >
+                LinkedIn: sneha-aravind
+            </a>
+            
       </div>
     </section>
   );
