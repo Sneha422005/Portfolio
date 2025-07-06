@@ -1,3 +1,4 @@
+import profileImage from '../assets/profile.jpg';
 export default function Hero() {
   return (
     <section
@@ -7,7 +8,7 @@ export default function Hero() {
       {/* Profile Picture */}
       <div className="mb-8">
         <img
-          src="src/assets/profile.jpg"
+          src={profileImage}
           alt="Sneha Aravind"
           className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-white"
         />
